@@ -7,7 +7,7 @@ If you are looking for a Refinery 2.0-compatible branch, use the '2-0-stable' br
 
 ## Requirements
 
-This engine requires Refinery CMS version >= 2.0.0.
+This engine requires Refinery CMS version >= 2.1.0.
 
 ## Gem Installation
 
@@ -16,7 +16,7 @@ Ensure you have created your application's database before adding this engine (w
 Open your ``Gemfile`` and add this line to the bottom:
 
 ```ruby
-gem 'refinerycms-portfolio', :git => 'git://github.com/refinery/refinerycms-portfolio.git', :branch => '2-0-stable'
+gem 'refinerycms-portfolio', :git => 'git://github.com/duccioarmenise/refinerycms-portfolio.git', :branch => 'master'
 ```
 
 Now run ``bundle install`` and once bundler has installed the gem run:
