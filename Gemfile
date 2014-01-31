@@ -2,12 +2,12 @@ source "http://rubygems.org"
 
 gemspec
 
-gem 'refinerycms', '~> 2.0.9'
+gem 'refinerycms', '~> 2.1.0'
 gem 'refinerycms-i18n', :git => 'git://github.com/refinery/refinerycms-i18n.git',
                         :branch => '2-0-stable'
 
 group :development, :test do
-  gem 'refinerycms-testing', '~> 2.0.9'
+  gem 'refinerycms-testing', '~> 2.1.0'
 end
 #
 # Refinery/rails should pull in the proper versions of these
